@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.authors          = { "litoarias" => "lito.arias.cervero@gmail.com" }
   s.social_media_url = 'https://github.com/litoarias/HACClusterMapViewController'
-  s.platform         = {:ios, "7.0", :tvos => "9.0"}
+  s.platforms         = {:ios, "7.0", :tvos => "9.0"}
   s.source           = { :git => "https://github.com/litoarias/HACClusterMapViewController.git", :tag => "2.4" }
   s.source_files     = "HACClusterMapViewController"
   s.requires_arc     = true
